@@ -1,0 +1,154 @@
+:root {
+  --main-width: 1000px;
+  --main-margin: 40px;
+  --panel-border-radius: 20px;
+
+  /* 色 */
+  --background-color: #FFFFBB;
+  --panel-background-color: #BAD3FF;
+  --panel-border-color: #4689FF;
+  --lose-turn-level-color: #FF82B2;
+
+  --event-foward-lavel-color: #5BFF7F;
+  --event-back-lavel-color: #75A9FF;
+  --event-lose-turn-lavel-color: #FF82B2;
+  --event-swap-lavel-color: #A16EFF;
+
+  /* ボタン */
+  --button-padding: 20px;
+  --button-font-size: 30px;
+  --button-width: 100%;
+}
+
+/* 全てのページ共通 */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.title {
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: var(--main-margin);
+  max-width: 900px;
+  width: 100%;
+}
+
+
+/* index.html */
+.select-button {
+  padding: var(--button-padding);
+  font-size: var(--button-font-size);
+  width: var(--button-width);
+}
+
+.select-button:hover { 
+  opacity: 0.8;
+}
+
+.play-mode {
+  margin-bottom: 20px;
+  background: #FF69B4;
+}
+
+.make-mode {
+  background: #1E90FF;
+}
+
+.explain {
+  margin-bottom: 6px;
+}
+
+.explain.last { 
+  margin-bottom: 30px;
+}
+
+
+/* select-**.html */
+.sub-title {
+  margin-bottom: 20px;
+}
+
+.stage-button {
+  padding: var(--button-padding);
+  font-size: var(--button-font-size);
+  width: var(--button-width);
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.user-icon-button {
+  font-size: 40px;
+  padding: 10px 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* select-making */
+.new {
+  background: pink;
+}
+
+.delete-stage-button {
+  padding: 10px 70px;
+  margin-left: auto;
+}
+
+.input-panel-of-number {
+  font-size: 30px;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.calc-button {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.increment {
+  background: #FF367F;
+}
+
+.decrement {
+  background: #2C7CFF;
+}
+
+.increment:hover {
+  background: #FF69A3;
+}
+
+.decrement:hover {
+  background: #5D99FF;
+}
+
+.delete-stage-button {
+  background: #5D99FF;
+}
+
+.maked {
+  background: orange;	
+}
+
+.maked:hover {
+  opacity: 0.8;
+}
+
+.delete-stage-button:hover { 
+  opacity: 0.8;
+}
